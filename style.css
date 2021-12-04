@@ -1,0 +1,53 @@
+body {
+    background: url(./img/pexels-beachview.jpg) no-repeat center fixed;
+    background-size: cover;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    min-height: 75vh;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    padding: 50px;
+    background-color: white;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+
+.card p, button, input {
+    display: flex;
+    justify-content: center;
+}
+
+.card input {
+    margin-bottom: 15px;
+}
+
+.title {
+    font: larger sans-serif;
+    color: rgb(12, 94, 145);
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+
+.total {
+    font-weight: bold;
+    color: rgb(12, 94, 145);
+    font: medium sans-serif;
+}
+
+.submit {
+    background-color: rgb(12, 94, 145);
+    border-radius: 5px;
+    padding: 1%;
+    border: none;
+    font-weight: bold;
+    color: white;
+    font: medium sans-serif;
+    cursor: pointer;
+}
